@@ -1,0 +1,42 @@
+var myVariable = 5;
+ console.log(myVariable);
+// this is an inline comment 
+/* 
+multi line comment 
+boolean 
+string 
+bigint
+number 
+null 
+undefined
+
+*/
+myVariable = 7 ;
+console.log(myVariable);  // comments 
+var myString = "Jezus";
+console.log(myString);
+var calculation1 = 50 + 0.5
+console.log(calculation1)
+var myEmptyString="j"
+var calculation2 = 25 + myEmptyString 
+console.log(calculation2)
+
+console.log(typeof calculation1)
+const GOD = "The God "
+console.log(GOD)
+var myNumber = 0;
+console.log(myNumber)
+myNumber++
+console.log(myNumber)
+let myCalc = 2.254 +7.5
+console.log(myCalc)
+console.log(Math.floor(myCalc))
+console.log(Math.ceil(myCalc))
+myCalc = myCalc +100 // addition function 
+console.log(myCalc)
+let myConcat = "This is"+" my tutorial"
+console.log(myConcat)
+myConcat += " add this"  // adding to concat 
+console.log(myConcat)
+console.log(myConcat.toUpperCase()) // changing to upper case 
+console.log(myConcat.toLowerCase()) // changing to lower case 
